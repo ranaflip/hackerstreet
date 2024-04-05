@@ -1,0 +1,148 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(224,221,209);
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+
+#middle{
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+
+
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #5C4033;
+
+}
+
+#nav h3{
+    font-weight: 500;
+    
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #5C4033;;
+    font-size: 16px;
+    color: #5C4033;
+    
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+
+}
+
+#old{
+    width: 50%;
+    padding: 40px 20px;
+    border-radius: 20%;
+}
+
+#slogan{
+    color: #5C4033;
+    font-size: 50px;
+}
+
+#rights{
+    border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+form {
+    width: 400px; /* Adjust form width */
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f5eb; /* Beige background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    color: #5C4033;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px); /* Adjust input width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50; /* Green submit button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#policy {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: flex-start; /* Align items at the start */
+    padding: 20px;
+}
+
+#tb {
+    width: 400px; /* Set form width */
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f5eb; /* Beige background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+#result {
+    width: calc(100% - 450px); /* Calculate width to fit remaining space */
+    padding: 30px; /* Adjust padding as needed */
+    border-radius: 8px;
+    background-color: #f9f5eb; /* Beige background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+
